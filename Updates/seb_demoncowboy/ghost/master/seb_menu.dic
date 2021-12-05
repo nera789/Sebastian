@@ -246,8 +246,8 @@ Select.joke
 }
 Select.flirt
 {
-    "\0\s[0]* You ask Sebastian if it hurt when he fell from--\w8\w8\n\n[half]\s[4]Fell from...what?\w8\w8\n\n[half]* Whoops. That sounded a lot better in your head...\e"
-	"\0\s[0]* You ask Sebastian if he has a phone number.\s[4] Modern phones are a little above my head, \w4I try to stay away from it as much as I can. \w8\w8Besides, I'm here enough aren't I?\w8\w8\n\n[half]* That wasn't really what you meant...\e"
+    "\0\s[0]* You ask Sebastian if it hurt when he fell from--\w8\w8\n\n[half]\s[4]Fell from...\w8\w8what?\w8\w8\n\n[half]* Whoops. \w8That sounded a lot better in your head...\e"
+	"\0\s[0]* You ask Sebastian if he has a phone number.\w8\w8\n\n[half]\s[4] Modern phones are a little above my head, \w8I try to stay away from it as much as I can. \w8\w8Besides, \w8I'm here enough aren't I?\w8\w8\n\n[half]* That wasn't really what you meant...\e"
 	"\0\s[0]* You ask Sebastian if he's familiar with a song about saving horses. \w8\w8\n\n[half]\s[4]No, \w4afraid not. \w8\w8I hope it's doin' well to spread awareness, though. \w8\w8\s[51]Decline in wild horse populations is a big problem in the western states. \w8\w8Real shame...\w8\w8\n\n[half]* That wasn't really what you were getting at...\e"
    
 }

@@ -6,8 +6,9 @@ charset,UTF-8
 type,ghost
 name,Sebastian
 directory,seb_demoncowboy
+balloon.directory,Seb_Balloon
 
 
 //This tells the program what balloon your ghost will be using. Replace "z_simple" and point it at your balloon directory if you've made one, or use a default balloon directory.
 
-balloon.directory,crow_modoki
+balloon.directory,Seb_Balloon
