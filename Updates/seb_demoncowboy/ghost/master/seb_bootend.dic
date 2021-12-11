@@ -234,14 +234,16 @@ OnBoot
 	}
 	elseif dayslot == "1month 1day"
 	{
-				"\0\s[0]Happy new year's day, %(username). \0\s[6]I've seen more of these than one man should.\e"
+				"\0\s[6]Happy new year's day, \w4%(username). \w8\w8\s[5]I've seen more of these than one man ever should.\e"
 				
 	}
-	elseif dayslot == "5month 13day"
+	elseif dayslot == "4month 6day"
 	{
-				"\0\s[6]You tell Sebastian it's Mother's day.\w8\w8\w8\0\s[4] He looks uneasy.\w8\w8* You ask if something is wrong.\w8\w8\n\n[half]Nothin. Just some bittersweet memories.\e"
+				"\0\s[46]* You're not even sure he noticed you. \w8\w8\n\n[half].\w8\w8.\w8\w8.\w8\w8\n\n[half]\s[48]Hey, \w8%(username).\w8.\w8. \w8\w8\n\n[half]* You ask him if this is a bad time.\w8.\w8.?\w8\w8\n\n[half]\s[46]No, \w8\w8I.\w8.\w8. \w8\w8Today is my daughter's birthday. \w8\w8\n\n[half]\s[47]She died a couple months before her fourteenth birthday. \w8\w8This was back in 1881, \w8\w8\s[48]so it ain't like she'd be alive today even if that hadn't happened, \w8\w8but I still think about her a lot when this day comes around every year. \w8\w8\n\n[half].\w8.\w8.\w8\s[49]Y'know, \w8\w8there's not many things I'm real good at. \w8\w8Certainly not now, \w8and not back then. \w8\w8\s[48]But her... \w8\w8\s[46]I really thought being her father would be different. \w8\w8Raising her was the best thing that ever happened to me. \w8\w8But...\w8\w8I suppose in the \s[50]end, \w8\w8it wasn't enough\w8.\w8.\w8.\e"
 				
 	}
+	
+	
 	elseif dayslot == "6month 6day" //Like above, this if statement is checking the date. It's looking for the sixth month and the sixth day.
 	
 	//*********************Advanced User Info*******************************

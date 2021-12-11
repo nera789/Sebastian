@@ -77,7 +77,7 @@ OnInstallComplete
  	{	
 		if reference1 == "Hypothetical Shell that doesn't actually exist" //This is the name of your shell as you defined in descript.txt in the shell folder.
 		{
-		"\s[0]We have installed Hypothetical Shell.\e"
+		"\s[0]* You installed a Hypothetical Shell.\e"
 		//Replace if needed.
 		}
 		elseif reference1 == "Another totally real shell wow" //As in other files, you can use elseif to expand a list like this to include as many shells as you have or think you'll make. See bootend.dic for more details about elseif.
@@ -87,23 +87,23 @@ OnInstallComplete
 		}
 		else //For any other shell they may install.
 		{
-		"\s[0]* You installed a new shell. It's called  %(reference1).\e"
+		"\s[0]* You installed a new shell. \w8It's called  %(reference1).\e"
 		//%(reference1) here would be the name of the shell they installed. Replace if needed.
 		}
  	}
 	elseif reference0 == "ghost" //if the type of the file they're installing is a ghost.
  	{
-		"\s[0]* You've installed a new Ghost.It's called %(reference1).\e"
+		"\s[0]* You've installed a new Ghost. \w8\w8\n\n[half]\s[6]Welcome to the party, %(reference1).\e"
 		//Reference1 here would be the name of the ghost. Replace as needed.
  	}
 	elseif reference0 == "balloon" //if the type of file is a balloon
  	{
-		"\s[0]* You've installed a new balloon. It's called %(reference1).\e"
+		"\s[0]* You've installed a new balloon. \w8It's called %(reference1).\e"
 		//Reference1 here would be the name of the balloon. Replace as needed.
  	}
 	elseif reference0 == "plugin" //if the type of file is a plug-in, like a saori of some kind.
  	{
-		"\s[0]* You've installed a plug-in. It's called %(reference1).\e"
+		"\s[0]* You've installed a plug-in. \w8It's called %(reference1).\e"
 		//Reference1 here would be the name of the plug-in. Replace as needed.
  	}
 }

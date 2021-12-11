@@ -71,6 +71,8 @@ RandomTalk : nonoverlap_pool
 	"\0\s[1]Hey, %(username)? \w8\w8You sure this place is...\w8enclosed?  \w8\w8\n\n[half]* You ask him what he means by that. \w8\w8\n\n[half]\s[3]I'm just curious, \w8hypothetically speaking, \w8if someone or something were to come lookin' for me, \w8I have to wonder if they wouldn't be able to... \w8find me here.\e"
 	
 	"\0\s[8]Hmm....\w8\w8No...\w8\w8hopefully they wouldn't be able to find me here...\e"
+	
+	"\0\s[8]* You hear him mumble something under his breath. \w8\w8\n\n[half]Purgatory...? \w8\w8No...\w8\w8that doesn't make sense...\w8\w8Even if they could, \w8as if they'd have any incentive to send ME there, \w8I'm still on probation...\e"
 
 	
 	//"\0\s[0]* He sighs deeply and his shoulders drop. Perhaps he's relaxed. Or maybe he's just accepted that he's stuck here?\e"
@@ -191,7 +193,7 @@ RandomTalk : nonoverlap_pool
 	
 	if month == 1
 	{
-		"\0\s[0]* It's January.\e"
+		
 		
 		"\0\s[0]* It's January. \w8\w8\n\n[half]\s[4]Does it snow where you are?\e"
 		
@@ -199,33 +201,32 @@ RandomTalk : nonoverlap_pool
 	}
 	if month == 2
 	{
-		"\0\s[0]* It's February.\e"
+		
 		"\0\s[3]February, huh. \w8Is it still cold where you are?\e"
 		
 	}
 	if month == 3
 	{
-		"\0\s[0]* It's March.\e"
+		
 		
 		"\0\s[0]* It's March. \w8\w8\n\n[half]\s[8]Y'know, I've been told the first Friday of the month is the World day of Prayer. \w8\0\s[3]Given my situation, I can't say I participate.\e"
 		
 	}
 	if month == 4
 	{
-		"\0\s[0]* It's April.\e"
+		
 		"\0\s[1]April already? \w8\w8When you don't die or age, \w8\s[33]time hardly seems to mean anything anymore...\e"
 		
 	}
 	if month == 5
 	{
-		"\0\s[0]* It's May.\e"
+		
 		
 		"\0\s[0]* It's May. \w8\w8\n\n[half]\s[8]A lot of people graduate around this time these days, \w8don't they? \n\n[half]\w8* You ask him when he graduated. \w8\w8\n\n[half]\s[1]Oh. \w8\w8I...\w8\w8Uh. \w8\w8I never actually got a formal education. \w8\w8It was a rather different time back then.\w8\w8\n\n[half]* You apologise. \w8\w8\n\n[half]\s[32]No. \w8It's nothing to apologise for. \w8\w8\w8\s[4]Believe it or not,\w8 being unable to read or write back then was more common than you might think. \w8\w8Heh. \w8\w8You know,\s[32]\w8 it wasn't until after I died that I learned how to read or write.\n\n[half]\w8\w8\w8\s[5]But times are generally better now, \w8for the most part in that regard.\w8.\w8.\w8\w8 so if you graduate soon, \w8congratulations!\e"
 		
 	}
 	if month == 6
 	{
-		"\0\s[0]* It's June.\e"
 		
 		"\0\s[6]Ah, June. \w8The summer months,\w8 finally. \w8\w8I dunno' if it's the same where you are, \w8\w8\0\s[30]but I'm not really one for the cold.\e"
 		
@@ -237,28 +238,28 @@ RandomTalk : nonoverlap_pool
 	}
 	if month == 8
 	{
-		"\0\s[6]* You tell him it's August.\n\n[half]Mm.\n\n[half]\e"
+		"\0\s[0]* You tell him it's August.\w8\w8\n\n[half]\s[3]Is it already...?\e"
 		
 	}
 	if month == 9
 	{
-		"\0\s[0]* It's September.\e"
+		"\0\s[8]Of my many years, September always feels like such a blur to me.\e"
 		
 	}
 	if month == 10
 	{
-		"\0\s[0]* It's October.\e"
+		"\0\s[8]Hmm, \w8October. \w8\w8\s[32]The month for Halloween. \w8\w8\s[6]You might be surprised to know that I actually grew up around the time the custom came to America. \w8\w8\s[5]Yeah. \w8\w8Back around the 1840s or so, \w8\s[3]Irish immigrants were fleeing the potato famine and they brought some of their customs with them. \w8\w8But it looked a lot different back then. \w8\w8\n\n[half]* You ask him if he celebrates. \w8\w8\n\n[half]\s[30]Halloween is usually a very big event for most demons. \w8\w8But when I see kids dressed up as monsters, \w8\s[3]it spoils the tradition when their costume is supposed to look like your likeness.\e"
 
 	}
 	if month == 11
 	{
-		"\0\s[0]* It's November.\e"
+		"\0\s[8]So it's November, huh...? \w8\s[5]If you celebrate it, any Thanksgiving plans?\e"
 		
 	}
 	//These ifs check what day of the week it is.
 	if weekday == 1
 	{
-		"\0\s[0]It's Monday.\e"
+		"\0\s[0]* It's Monday.\e"
 		
 	}
 	if weekday == 2
